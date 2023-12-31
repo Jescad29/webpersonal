@@ -5,8 +5,17 @@ name = "pypi"
 
 [packages]
 django = "==4.1.7"
+django-ckeditor = "*"
+pillow = "*"
+pylint = "*"
+pylint-django = "*"
+pylint-celery = "*"
 
 [dev-packages]
+pylint = "*"
+pylint-django = "*"
+autopep8 = "*"
+pycodestyle = "*"
 
 [requires]
 python_version = "3.11"
